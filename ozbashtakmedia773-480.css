@@ -1,0 +1,1306 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Montserrat", sans-serif;
+}
+@font-face {
+  font-family: "Adobe Garamond Pro-Bold";
+  src: url(fonts/AGaramondPro-Bold.woff);
+  src: url(AnyConv.com__AGaramondPro-Bold.woff2);
+  font-weight: bold;
+  font-style: normal;
+}
+
+.header-intro {
+  height: 1080px;
+  color: #ffff;
+  background-image: url(img/Group\ 89.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__containerlerin {
+  width: 1500px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 195px;
+}
+
+.header_Luxer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 256px;
+  text-decoration: none;
+  font-family: "Adobe Garamond Pro-Bold";
+  color: #14274a;
+  background-color: #e0b973;
+  font-style: normal;
+  padding: 45px 0;
+  border-radius: 0 0 50px 50px;
+}
+
+.headerLuxerspan {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.headerHOSTELSspan {
+  font-family: "Adobe Garamond Pro-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.6em;
+  text-transform: uppercase;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+  width: 700px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.15em;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkpage {
+  text-decoration: underline;
+}
+.item {
+  list-style: none;
+}
+.itemsclass {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-items {
+  max-width: 700;
+  padding-bottom: 108px;
+}
+
+.welcom {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+  margin: 0;
+}
+
+.luxury {
+  font-family: "Adobe Garamond Pro-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 154px;
+  line-height: 135px;
+  letter-spacing: 0.07em;
+  padding-bottom: 14px;
+  margin: 0;
+}
+
+.hotels {
+  font-family: "Adobe Garamond Pro-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 0.4em;
+  margin: 0;
+}
+.page {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+.intro-btn-scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-btn {
+  display: flex;
+  width: 282px;
+  height: 78px;
+  background: #e0b973;
+  margin-bottom: 80px;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+.house {
+  padding-right: 19px;
+}
+.booktext {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.intro-scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scoll {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  padding-bottom: 15px;
+}
+.imgscroll {
+  margin-bottom: 35px;
+}
+.booking_container {
+  max-width: 1570px;
+  margin: auto;
+  color: #14274a;
+  margin-top: 180px;
+}
+.texth1 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 164px;
+  margin-top: 182px;
+}
+.bookings {
+  display: flex;
+  flex-direction: column;
+}
+.booking1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 525px;
+  margin-right: 133px;
+  margin-bottom: 117px;
+}
+.line1 {
+  height: 468px;
+  border: 2px solid #14274a;
+  background: #14274a;
+  margin-right: 48px;
+}
+.booking11 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 133px;
+}
+.h1 {
+  font-family: "Adobe Garamond Pro-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 0.02em;
+  color: inherit;
+  margin-bottom: 13px;
+}
+.textp1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  margin-bottom: 115px;
+  width: 523px;
+  height: 214px;
+}
+.button1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #ffff;
+  padding: 21px 65px;
+  border-radius: 8px;
+  background-color: #e0b973;
+  width: 236px;
+  height: 68px;
+}
+.img1 {
+  width: 866px;
+  height: 527px;
+}
+.booking2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 525px;
+  margin-right: 133px;
+  margin-bottom: 117px;
+}
+.line2 {
+  height: 468px;
+  border: 2px solid #14274a;
+  background: #14274a;
+  margin-right: 48px;
+}
+.booking22 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 133px;
+}
+.texth2 {
+  font-family: "Adobe Garamond Pro-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 0.02em;
+  color: inherit;
+  margin-bottom: 13px;
+}
+.textp2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  margin-bottom: 32px;
+  width: 523px;
+  height: 214px;
+}
+.botton2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #ffff;
+  padding: 21px 26px 20px 69px;
+  border-radius: 8px;
+  background-color: #e0b973;
+  width: 236px;
+  height: 68px;
+}
+.img2 {
+  width: 866px;
+  height: 527px;
+}
+.texth3 {
+  font-family: "Adobe Garamond Pro-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  color: #14274a;
+  text-align: center;
+  margin-bottom: 28px;
+}
+.div1Testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textp31 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 21px;
+}
+.textp32 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 25px;
+}
+.div2Testimonial {
+  justify-content: center;
+  background-color: white;
+  margin-bottom: 117px;
+}
+.cep {
+  margin-right: 21px;
+  width: 50px;
+  height: 54px;
+}
+.sag {
+  width: 50px;
+  height: 54px;
+}
+
+.footer {
+  background-image: url(img/Union\ 3.png);
+  color: #ffffff;
+  position: relative;
+  background-size: cover;
+  background-position: tops;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+}
+.container_footer {
+  margin: auto;
+}
+.ulfooter {
+  list-style: none;
+}
+.ulfooter2 {
+  list-style: none;
+}
+.alifooter2,
+.alifooter22,
+.alifooter222 {
+  color: inherit;
+  text-decoration: none;
+}
+.container_hotel_name {
+  display: flex;
+  flex-direction: row;
+  padding-top: 155px;
+  padding-bottom: 71px;
+  max-width: 1550px;
+  margin: auto;
+  justify-content: space-between;
+}
+.footerlar2part {
+  width: 1050px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.footerlar0 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 23px;
+}
+.footerLUXURY {
+  font-family: "Adobe Garamond Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+}
+
+.footerHOTELs {
+  font-family: "Adobe Garamond Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 11px;
+  letter-spacing: 0.6em;
+  margin-bottom: 24px;
+  color: #ffffff;
+  margin-left: 25px;
+}
+.footer1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.hotel_name {
+  display: flex;
+  flex-direction: column;
+}
+.ulfooter {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #f7f7f7;
+}
+
+.alifooter0 {
+  list-style: none;
+  color: #ffffff;
+  text-decoration: none;
+}
+.foote_subscribe_text {
+  margin-bottom: 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.Email {
+  background: #14274a;
+  border: 1px solid #e0b973;
+  outline: none;
+  border-radius: 8px 0 0 8px;
+  width: 278px;
+  height: 54px;
+}
+.ok {
+  position: absolute;
+  border-radius: 0 8px 8px 0;
+  background-color: #e0b973;
+  color: #14274a;
+  padding: 13px 27px;
+  text-decoration: none;
+  width: 80px;
+  height: 54px;
+}
+.footerlar1 {
+  display: flex;
+  flex-direction: column;
+}
+.classurat1 {
+  margin-left: 27px;
+}
+.classurat2 {
+  margin-left: 26px;
+}
+.classurat3 {
+  margin-left: 27px;
+}
+.lifooter2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lifooter22 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lifooter222 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.suratstrelka {
+  width: 50px;
+  height: 50px;
+}
+.strelka {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+.Dynch {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  background-color: #e0b973;
+  color: #ffffff;
+  padding: 14px 20px;
+  font-weight: bold;
+}
+.Possition_absolute {
+  position: relative;
+}
+.burgerimg {
+  display: none;
+}
+.goshmacha1,.Possition_absolute {
+    display: none;
+  }
+
+@media (max-width: 1600px) {
+  .strelka,
+  .header_Luxer,
+  .line1,
+  .line2 {
+    display: none;
+  }
+  .goshmacha1,
+  .Possition_absolute {
+    display: none;
+  }
+  .header__containerlerin {
+    padding-top: 60px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro,
+  .booking1,
+  .booking2,
+  .bookings,
+  .button1,
+  .botton2,
+  .booking11,
+  .booking22 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 0;
+  }
+  .booking11,
+  .booking22 {
+    margin-right: 0;
+    margin-bottom: 80px;
+  }
+  .footer {
+    background-image: none;
+    background-color: #14274a;
+  }
+  .container_hotel_name {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hotel_name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+  .footerlar2part {
+    width: 1200px;
+  }
+  .Email {
+    padding: 10px 14px;
+    width: 185px;
+    height: 39px;
+  }
+  .ok {
+    padding: 11px 14px;
+    width: 56px;
+    height: 39px;
+  }
+}
+@media (max-width: 1200px) {
+  .container_hotel_name,
+  .header__containerlerin {
+    max-width: 707px;
+    display: flex;
+    flex-direction: column;
+  }
+  .goshmacha1,
+  .Possition_absolute {
+    display: none;
+  }
+  .footerlar2part {
+    width: 707px;
+  }
+  .Email {
+    padding: 12px 26px;
+    width: 185px;
+  }
+}
+@media (max-width: 992px) {
+  .itemsclass {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .welcom {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .luxury {
+    font-size: 96px;
+    line-height: 115px;
+  }
+  .hotels {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .page {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .booktext {
+    font-size: 25px;
+    line-height: 24px;
+  }
+
+  .intro-btn {
+    padding: 14px 26px;
+  }
+  .intro-scroll {
+    display: none;
+  }
+  .h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .textp1 {
+    font-size: 16px;
+    line-height: 40px;
+  }
+  .button1 {
+    font-size: 16px;
+    line-height: 40px;
+    padding: 11px 44px;
+  }
+  .img1 {
+    width: 685px;
+  }
+  .texth3 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .textp31 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .textp32 {
+    font-size: 16px;
+    line-height: 40px;
+  }
+  .div2Testimonial {
+    padding: 12px 15px;
+  }
+  .burgerimg {
+    display: none;
+  }
+}
+  .goshmacha1,
+  .Possition_absolute {
+    display: none;
+  }
+@media (max-width: 773px) {
+  .header_Luxer,
+  .itemsclass {
+    display: none;
+  }
+
+  .burgerimg {
+    display: block;
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+  }
+  .container_hotel_name,
+  .header__containerlerin {
+    max-width: 707px;
+  }
+  .intro {
+    display: flex;
+    text-align: start;
+    padding-bottom: 0;
+  }
+  .welcom {
+    font-size: 40px;
+    line-height: 49px;
+  }
+  .luxury {
+    font-size: 128px;
+    line-height: 154px;
+    padding: 0;
+  }
+  .hotels {
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 44px;
+  }
+  .page {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 92px;
+  }
+  .intro-btn-scroll {
+    width: 268px;
+    height: 78px;
+  }
+  .intro-btn {
+    padding: 22px 33px;
+    margin-bottom: 55px;
+  }
+  .texth1 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 108px;
+    margin-bottom: 107px;
+  }
+  .booking1,
+  .booking2 {
+    max-width: 707px;
+    margin-bottom: 107px;
+  }
+  .h1 {
+    margin-bottom: 41px;
+  }
+  .textp1 {
+    margin-bottom: 41px;
+    width: auto;
+    height: auto;
+  }
+  .button1,
+  .botton2 {
+    padding: 13px 44px;
+    font-size: 15px;
+    line-height: 18px;
+    width: 164px;
+    height: 42px;
+  }
+  .booking11 {
+    margin-bottom: 83px;
+  }
+  .img1,
+  .img2 {
+    width: 686px;
+    height: 485px;
+    border-radius: 0px;
+  }
+  .texth2 {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 40px;
+  }
+  .textp2 {
+    font-size: 16px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    width: auto;
+    height: auto;
+  }
+  .texth3 {
+    margin-bottom: 50px;
+  }
+  .textp31 {
+    margin-bottom: 32px;
+  }
+  .textp32 {
+    line-height: 20px;
+    margin-bottom: 34px;
+  }
+  .cep,
+  .sag {
+    width: 40px;
+    height: 40px;
+  }
+  .cep {
+    margin-right: 30px;
+  }
+  .div1Testimonial {
+    margin-bottom: 107px;
+  }
+  .container_hotel_name {
+    padding-top: 60px;
+    margin: auto;
+  }
+  
+  .hotel_name,
+  .footerlar2part {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .hotel_name,
+  .ulfooter,
+  .ulfooter2,
+  .foote_subscribe,
+  .footerlar0 {
+    margin-bottom: 40px;
+  }
+  .container_hotel_name {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-right: 35px;
+  }
+  .footer {
+    height: auto;
+  }
+  .footerHOTELs {
+    margin-bottom: 0;
+  }
+  .classurat1,
+  .classurat2,
+  .classurat3 {
+    margin-left: 35px;
+  }
+  .Email {
+    padding: 10px 14px;
+    width: 200px;
+    height: 39px;
+  }
+  .ok {
+    padding: 11px 14px;
+    width: 56px;
+    height: 39px;
+  }
+  .footerlar2part {
+    width: 100%;
+  }
+  .testimo {
+    max-width: none;
+  }
+  .div2Testimonial {
+    margin-bottom: 0;
+  }
+  .footerlar2part {
+    margin-bottom: 0;
+  }
+  .goshmacha1,
+  .Possition_absolute {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .container_hotel_name,
+  .header__containerlerin,
+  .testimo {
+    max-width: 300px;
+  }
+  .footerlar2part {
+    width: 300px;
+  }
+  .testimo {
+    margin: auto;
+  }
+  .goshmacha1,
+  .Possition_absolute {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .welcom {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .luxury {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .hotels {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .page {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .intro-btn {
+    display: none;
+  }
+  .header-intro {
+    height: 550px;
+  }
+  .header__containerlerin {
+    padding-left: 10px;
+  }
+  .texth1 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 120px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .h1 {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .textp1 {
+    font-size: 14px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 300px;
+    height: 189px;
+  }
+
+  .button1,
+  .botton2 {
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 11px 24px;
+  }
+  .img1,
+  .img2 {
+    width: 290px;
+    height: 176px;
+    margin-bottom: 120px;
+    border-radius: 10px;
+  }
+  .texth2 {
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+  }
+  .textp2 {
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    width: 300px;
+    height: 189px;
+    margin-bottom: 30px;
+  }
+  .booking2 {
+    margin-bottom: 0;
+  }
+  .texth3 {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .textp31 {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .textp32 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .cep,
+  .sag {
+    width: 20px;
+    height: 20px;
+  }
+  .testimo {
+    margin-bottom: 120px;
+  }
+  .Email {
+    padding: 10px 14px;
+  }
+  .ok {
+    padding: 11px 14px;
+  }
+  .footerlar2part {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .welcom {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .luxury {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .hotels {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .page {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .intro-btn {
+    display: none;
+  }
+  .header-intro {
+    height: 550px;
+  }
+  .header__containerlerin {
+    padding-left: 10px;
+  }
+  .texth1 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 120px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .h1 {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .textp1 {
+    font-size: 14px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 300px;
+    height: 189px;
+  }
+
+  .button1,
+  .botton2 {
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 11px 24px;
+  }
+  .img1,
+  .img2 {
+    width: 290px;
+    height: 176px;
+    margin-bottom: 120px;
+    border-radius: 10px;
+  }
+  .texth2 {
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+  }
+  .textp2 {
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    width: 300px;
+    height: 189px;
+    margin-bottom: 30px;
+  }
+  .booking2 {
+    margin-bottom: 0;
+  }
+  .texth3 {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .textp31 {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .textp32 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .cep,
+  .sag {
+    width: 20px;
+    height: 20px;
+  }
+  .testimo {
+    margin-bottom: 120px;
+  }
+  .Email {
+    padding: 10px 14px;
+  }
+  .ok {
+    padding: 11px 14px;
+  }
+  .footerlar2part {
+    width: 100%;
+  }
+  .goshmacha1,
+  .Possition_absolute {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .welcom {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .luxury {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .hotels {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .page {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 171px;
+  }
+  .button1,
+  .botton2 {
+    width: 124px;
+    height: 31px;
+  }
+  .intro-btn {
+    display: none;
+  }
+  .header-intro {
+    height: 700px;
+  }
+  .header__containerlerin {
+    padding-left: auto;
+  }
+  .texth1 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 120px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .h1 {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .textp1 {
+    font-size: 14px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 300px;
+    height: 189px;
+  }
+
+  .button1,
+  .botton2 {
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 11px 24px;
+  }
+  .img1,
+  .img2 {
+    width: 290px;
+    height: 176px;
+    margin-bottom: 120px;
+    border-radius: 0px;
+  }
+  .booking11,
+  .booking22 {
+    margin-bottom: 0;
+  }
+  .booking2,
+  .booking1 {
+    margin-bottom: 0;
+  }
+  .texth2 {
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .textp2 {
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    width: 300px;
+    height: 189px;
+    margin-bottom: 30px;
+  }
+
+  .texth3 {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .textp31 {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .textp32 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .cep,
+  .sag {
+    width: 20px;
+    height: 20px;
+  }
+  .testimo {
+    margin-bottom: 120px;
+  }
+  .hotel_name,
+  .footerlar2part {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .hotel_name,
+  .ulfooter,
+  .ulfooter2,
+  .foote_subscribe,
+  .footerlar0 {
+    margin-bottom: 40px;
+  }
+  .container_hotel_name {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-right: 35px;
+  }
+  .footer {
+    height: auto;
+  }
+  .footerHOTELs {
+    margin-bottom: 0;
+  }
+  .classurat1,
+  .classurat2,
+  .classurat3 {
+    margin-left: 35px;
+  }
+  .Email {
+    padding: 10px 14px;
+    width: 185px;
+    height: 39px;
+  }
+  .ok {
+    padding: 11px 14px;
+    width: 56px;
+    height: 39px;
+  }
+  .footerlar2part {
+    width: 100%;
+  }
+  .testimo {
+    max-width: none;
+  }
+  .div2Testimonial {
+    margin-bottom: 0;
+  }
+  .footerlar2part {
+    margin-bottom: 0;
+  }
+  .goshmacha1,
+  .Possition_absolute {
+    display: none;
+  }
+}

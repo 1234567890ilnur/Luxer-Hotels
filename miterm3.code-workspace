@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../miterm3 __1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "miterm3"
+	}
+}
